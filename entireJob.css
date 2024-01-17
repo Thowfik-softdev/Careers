@@ -1,0 +1,96 @@
+body{
+    background-color: #1d1d1d;
+}
+
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+/* Desinging the Nav Bar */
+ul {  
+  position: relative;
+    list-style-type: none;  
+    margin: 0;  
+    padding: 5px;  
+    overflow: hidden;  
+    background-color: black;  
+  }  
+  li {  
+    float: right;  
+    
+  }   
+  
+  li a {  
+    display: block;  
+    color: whitesmoke;  
+    font-size:20px;  
+    text-align: center;  
+    padding: 10px 20px;  
+    text-decoration: none;  
+  }  
+  li a:hover {  
+    background-color: dodgerblue;  ;
+  }
+  
+  .name{
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+.Job_details{
+    text-align: left;
+    color: whitesmoke;
+}
+
+pre{
+  font-family: 'Times New Roman', Times, serif;
+  line-height: 40px;
+  font-size: 18px;
+  float: left;
+}
+
+/* Apply Form */
+.apply_form{
+  color: whitesmoke;
+  line-height: 20px;  
+  border-top: solid 2.5px grey;
+  padding-left: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 100%;
+  font-size: 18px;
+}
+
+.box{
+  height: 35px;
+  width: 500px;
+  border-radius: 5px;
+
+}
+
+.btn{
+  padding: 10px;
+  border-radius: 5px;
+  
+}
+
+.app_h{
+  padding-left: 120px;
+}
+
+.dropdown{
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.submittedData{
+  line-height: 30px;
+}
